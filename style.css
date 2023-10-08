@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+  
+}
+
+.products-container{
+    padding-top: -12px;
+    padding: 20px;
+    width: 45%;
+    border: 5px solid gray;
+    
+}
+.cart-container {
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 45%;
+    border: 5px solid gray;
+}
+
+.product-item,
+.cart-item {
+    background-color: rgb(142, 149, 157);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+}
+
+.cart-item {
+    font-weight: 300;
+}
